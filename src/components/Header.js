@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isMobileMenuVisible, setMobileMenuVisibility] = useState(false);
@@ -16,17 +17,17 @@ function Header() {
         <div className="text-white w-full mt-2">
           <ul className="hidden md:m-7 md:gap-10 md:flex justify-end content-center">
             <li>
-              <a className="hover:bg-white hover:text-black focus:bg-white focus:text-black px-2 py-1 rounded-md transition duration-300">
+              <Link to="/" className="hover:bg-white hover:text-black focus:bg-white focus:text-black px-2 py-1 rounded-md transition duration-300">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href=""
+              <Link 
+               to="/projects"
                 className="hover:bg-white hover:text-black focus:bg-white focus:text-black px-2 py-1 rounded-md transition duration-300"
               >
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
               <a className="hover:bg-white hover:text-black focus:bg-white focus:text-black px-2 py-1 rounded-md transition duration-300">

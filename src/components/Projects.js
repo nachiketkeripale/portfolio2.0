@@ -1,8 +1,10 @@
+import img1 from '../screenshots/screenshotproject1.png'
+
 function Projects() {
     return(
         <div>
             <div className="card">
-            {/* <img className="card-logo" src="./screenshots/screenshotproject1.png"/> */}
+            <img className="card-logo" src={img1}/>
             <h3>Streetstyle Home Page</h3>
             <ul>
               <li><a href="https://github.com/nachiketkeripale/HTML-CSS-Project1" target="_blank">GitHub</a></li>

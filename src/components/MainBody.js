@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function MainBody() {
   return (
     <div className="flex bg-regal-blue font-[Poppins] h-[80vh] w-full">
@@ -16,12 +18,11 @@ function MainBody() {
         </div>
 
         <div className="flex mt-16 text-white w-full justify-center">
-          <a
-            href="#project"
+          <Link to="/projects"
             className=" rounded px-3 py-2 border-2 border-white hover:bg-white hover:text-black"
           >
             SEE MORE ABOUT ME
-          </a>
+          </Link>
         </div>
 
 
