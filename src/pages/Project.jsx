@@ -3,9 +3,9 @@ import ProjectCard from '../components/ProjectCard'
 
 export default function Project() {
     return (
-        <div className=''>
-            <h1 className="my-[20px] px-[100px] text-2xl">PROJECTS</h1>
-            <div className="h-[250px] flex flex-wrap justify-between items-baseline gap-[30px] mt-[30px] px-[100px]">
+        <div className='h-screen w-screen bg-[#1f1f1f]'>
+            <h1 className="my-[20px] px-[20px] lg:px-[100px] text-2xl">PROJECTS</h1>
+            <div className="lg:h-[250px] gap-[10px] md:gap-[30px] lg:mt-[30px] lg:px-[100px] flex flex-wrap justify-between items-baseline ">
                 <ProjectCard name="Streetstyle Home Page" src="https://raw.githubusercontent.com/nachiketkeripale/portfolio2.0/Development/src/screenshots/screenshotproject1.png" github='https://github.com/nachiketkeripale/HTML-CSS-Project1' live='https://nachiketkeripaleproject1.netlify.app/'/>
                 <ProjectCard name="Restaurant Home Page" src="https://raw.githubusercontent.com/nachiketkeripale/portfolio2.0/Development/src/screenshots/screenshotproject2.png" github='https://github.com/nachiketkeripale/HTML-CSS-Project2' live='https://nachiketkeripaleproject2.netlify.app/'/>
                 <ProjectCard name="Law firm Home Page" src="https://raw.githubusercontent.com/nachiketkeripale/portfolio2.0/Development/src/screenshots/screenshotproject3.png" github='https://github.com/nachiketkeripale/HTML-CSS-Project3' live='https://nachiketkeripaleproject3.netlify.app/'/>
