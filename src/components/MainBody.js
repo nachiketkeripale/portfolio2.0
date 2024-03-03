@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
+import Header from './Header';
 
 function MainBody() {
   return (
+    <>
+    <Header></Header>
     <div className="flex bg-regal-blue font-[Poppins] h-[80vh] w-full">
       <div className="flex-col justify-center h-[50vh] mt-5 w-full">
         <div>
@@ -28,6 +31,7 @@ function MainBody() {
 
       </div>
     </div>
+    </>
   );
 }
 
